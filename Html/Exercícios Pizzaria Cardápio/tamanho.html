@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pizzaria Nota 100</title>
+    </head>
+    <body>
+        <style>
+            ol {
+                counter-reset: section;                /* Criar uma instância chamada section para que haja um contador */
+                list-style-type: none;
+            }
+            li::before {
+                counter-increment: section;              /* Incrementa apenas essa instancia ao contador 'section'*/
+                content: counters(section, ".") " ";   /* Combina todos os valores do contador 'section, separada por uma vírgula*/
+            }
+        </style>
+        <ol>
+            <li>Bordas
+                <ol>
+                    <li>Pequena 25cm</li>
+                    <li>Média 30cm</li>
+                    <li>Grande 35cm</li>
+                    <li>Família 40cm</li>
+                    <li>Gigante 45cm</li>
+                </ol>
+            </li>
+            <li>Fatias
+                <ol>
+                    <li>Pequena - 6 Fatias</li>
+                    <li>Média - 8 Fatias</li>
+                    <li>Grande - 10 Fatias</li>
+                    <li>Família - 12 Fatias</li>
+                    <li>Gigante - 16 Fatias</li>
+                </ol>
+            </li>
+        </ol>
+    </body>
+</html>
