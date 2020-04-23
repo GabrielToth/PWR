@@ -1,14 +1,14 @@
-#menu, #menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+h1 {
+    color: blue; font-size: 48px; font-family: 'Roboto', sans-serif;
 }
-#menu {
-    width: 200px;
-    margin: 60px;
-    border: 1px solid #222;
-    background-color: #111;
-    background-image: linear-gradient(#444, #111);
-    border-radius: 6px;
-    box-shadow: 0 1px 1px #777;
+
+body {
+    background-color: rgba(66, 66, 66, 0);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 16px;
 }
