@@ -1,12 +1,21 @@
 body {
-    background-color: burlywood;
+    background-color: #181818;
 }
 
 #menu {
-    background-color: bisque;
+    background-color: #202020;
     margin: 90px;
+    color: #E4E4E4
 }
 
 #teste {
-    background-color: darksalmon;
+    background-color: #2F2C2C;
+}
+
+h1 {
+    color: #E4E4E4;
+}
+
+h3 {
+    color: #E4E4E4;
 }
