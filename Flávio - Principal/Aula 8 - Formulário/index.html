@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="Formulário" id="formulario_endereco" action="salvar.jsp" method="POST">
+        </br>
+        <label>Endereço</label> <input type="text" name="endereco" value="Digite o endereço" size="48" maxlength="150"/>
+        </br>
+        <label>Data de Nascimento</label> <input type="date" name="data_nascimento"/>
+        </br>
+        <label>Senha<label> <input type="password" name="senha"/>
+        </br>
+        <label>Data/Hora de Entrada"></label> <input type="datetime-local" name="datahora_entrada"/>
+        </br>
+        <input type="radio" id="alternativa1" name="alternativa" value="A"/> <label for="alternativa1">Alternativa</label>
+        <input type="radio" id="alternativa2" name="alternativa" value="B"/> <label for="alternativa2">Alternativa</label>
+        <input type="radio" name="alternativa" id="alternativa3" value="C"/> <label for="alternativa3">Alternativa</label>
+        <input type="radio" name="alternativa" id="alternativa3" value="D"/> <label for="alternativa4">Alternativa</label>
+        </br>
+        <input type="checkbox" name="alternativa" id="alternativa1" value="A"> <label for="alternativa1">Alternativa</label>
+        <input type="checkbox" name="alternativa" id="alternativa2" value="B"> <label for="alternativa2">Alternativa</label>
+        <input type="checkbox" name="alternativa" id="alternativa3" value="C"> <label for="alternativa3">Alternativa</label>
+        <input type="checkbox" name="alternativa" id="alternativa4" value="D"> <label for="alternativa4">Alternativa</label>
+        </br>
+        <label>Telefone</label> <input type="tel" name="telefone" size="20" maxlength="20"/>
+        </br>
+        <label>Email</label> <input type="email" name="email" size="50" maxlength="80"/>
+        </br>
+        <label>Pesquise</label> <input type="search" name="busca" size="50" maxlength="80"/>
+        </br>
+        <label>Site</label> <input type="url" name="site" size="50" max="100"/>
+        <label>Estado</label> <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+        </select>
+    </form>
+</body>
+</html>
