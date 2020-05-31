@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding: 0;
+	border:0;
+}
+body{
+	background: #292b2c;
+}
+.container{
+	max-width: 400px;
+	width: 90%;
+	margin:150px auto;
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: rgba(108,117,125,0.1);
+	padding: 40px;
+
+}
+h2{
+	text-align: center;
+}
+label{
+	width: 30%;
+	line-height: 25px;
+}
+input,select{
+	height: 25px;
+	width: 70%;
+	font-size:1.2em;
+}
+button{
+	background: grey;
+	width: 40%;
+	height: 30px;
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 0 auto;
+	text-transform: uppercase;
+	color:white;
+}
+button:hover{
+	background:darkgrey;
+	cursor:pointer;
+}
+input[disabled="disabled"]{
+	color:white;
+}

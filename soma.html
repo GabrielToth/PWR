@@ -1,0 +1,33 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            function somar(){
+                var num1 = document.getElementById("1").value;
+                var num2 = document.getElementById("2").value;
+                var res = parseFloat(num1) + parseFloat(num2);
+                document.getElementById("r").style.backgroundColor = "yellow";
+                document.getElementById("r").value = res;
+    
+            }
+        </script>
+        <title>SOMA</title>
+    </head>
+    <body>
+        <h1>SOME OS NÚMEROS E VEJA O RESULTADO!</h1>
+        <br>
+        <p>Número 1:</p>
+        <input id="1" placeholder="Exemplo: 1, 2 3...">
+        <br>
+        <p>Número 2:</p>
+        <input id="2" placeholder="Exemplo: 1, 2 3...">
+        <br>
+        <br>
+        <button onclick="somar()">Somar</button>
+        <br>
+        <p>Valor final:</p>
+        <input type="text" id="r">
+    </body>
+</html>
