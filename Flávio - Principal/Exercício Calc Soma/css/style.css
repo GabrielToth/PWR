@@ -11,34 +11,13 @@ body{
 h2{
 	text-align: center;
 }
-label{
-	width: 30%;
-	line-height: 25px;
+
+p{
+	text-align: center;
 }
-input,select{
-	height: 25px;
-	width: 70%;
-	font-size:1.2em;
-}
-button{
-	background: grey;
-	width: 40%;
-	height: 30px;
-	font-size: 1.2em;
-	display: inline-block;
-	margin: 0 auto;
-	text-transform: uppercase;
-	color:white;
-}
-button:hover{
-	background:rgb(78, 78, 78);
-	cursor:pointer;
-}
-input[disabled="disabled"]{
-	color:white;
-}
+
 .container{
-	max-width: 400px;
+	max-width: 420px;
 	width: 90%;
 	margin:150px auto;
 	color:white;
